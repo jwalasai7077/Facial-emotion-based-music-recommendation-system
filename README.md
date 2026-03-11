@@ -1,6 +1,6 @@
 # 🎵 Facial Emotion Based Music Recommendation System
 
-## 📌 System Architecture
+##  System Architecture
 
 Webcam
    ↓
@@ -14,9 +14,9 @@ Music Recommendation (Dataset Filtering)
    ↓
 Recommend Music
 
-# 🎵 Facial Emotion Based Music Recommendation System
+#  Facial Emotion Based Music Recommendation System
 
-## 📌 Project Description
+##  Project Description
 This project is a machine learning-based application that detects a user’s facial emotion using a webcam and recommends music that matches the detected emotion.  
 It integrates computer vision, deep learning, and data processing into a single interactive web application.
 
@@ -24,7 +24,7 @@ The goal of this project is to provide an intelligent and automated music recomm
 
 ---
 
-## 🚀 Features
+##  Features
 - Real-time facial emotion detection
 - Webcam-based face capture
 - Emotion classification using a CNN model
@@ -34,7 +34,7 @@ The goal of this project is to provide an intelligent and automated music recomm
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Programming Language
 - Python
@@ -42,13 +42,14 @@ The goal of this project is to provide an intelligent and automated music recomm
 ### Libraries & Frameworks
 - Streamlit – Web application framework
 - OpenCV – Face detection and webcam access
+- CNN - To predict Emotion
 - TensorFlow / Keras – Emotion classification model
 - NumPy – Numerical operations
 - Pandas – Music dataset processing
 
 ---
 
-## 🧠 How the System Works
+##  How the System Works
 
 1. User clicks **SCAN EMOTION**
 2. Webcam captures facial frames
@@ -61,7 +62,15 @@ The goal of this project is to provide an intelligent and automated music recomm
 
 ---
 
-## 🤖 Machine Learning Model
+## 📸 Screenshots
+
+###  Facial Emotion Detection
+![Facial Emotion Detection](images/facial_emotion.jpeg)
+
+###  Recommended Songs Based on Emotion
+![Recommended Songs](images/recommended_songs.jpeg)
+
+##  Machine Learning Model
 
 - Model Type: Convolutional Neural Network (CNN)
 - Input: 48 × 48 grayscale facial image
@@ -80,7 +89,7 @@ In this project, the pre-trained model is loaded and used only for emotion predi
 
 ---
 
-## 🎶 Dataset Used
+##  Dataset Used
 
 - File: `muse_v3.csv`
 - Contains:
@@ -94,7 +103,7 @@ Songs are categorized and sampled based on detected emotions.
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### Step 1: Clone the Repository
 ```bash
