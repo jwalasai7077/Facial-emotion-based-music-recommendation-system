@@ -3,15 +3,15 @@
 ##  System Architecture
 
 Webcam
-   ↓
+   ➝
 Face Detection (OpenCV + Haar Cascade)
-   ↓
+   ➝
 Emotion Classification (CNN Model)
-   ↓
+   ➝
 Emotion Aggregation (Most Frequent Emotion)
-   ↓
+   ➝
 Music Recommendation (Dataset Filtering)
-   ↓
+   ➝
 Recommend Music
 
 #  Facial Emotion Based Music Recommendation System
